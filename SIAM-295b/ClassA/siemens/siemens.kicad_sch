@@ -8377,7 +8377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 184.15 125.73 0)
 			(effects
 				(font
@@ -8842,7 +8842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 355.6 109.22 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "AUDIO_IN"
 			(at 15.875 76.2 0)
 			(effects
 				(font
@@ -9846,7 +9846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 359.41 135.89 0)
 			(effects
 				(font
@@ -10328,7 +10328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 184.15 119.38 0)
 			(effects
 				(font
@@ -10369,7 +10369,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 246.38 198.12 90)
+		(at 243.84 198.12 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10378,7 +10378,7 @@
 		(fields_autoplaced yes)
 		(uuid "471b90c1-6594-4236-839e-dd9bc8f74ac6")
 		(property "Reference" "J2"
-			(at 247.65 200.66 90)
+			(at 245.11 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10386,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 247.65 203.2 90)
+			(at 245.11 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10394,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 246.38 198.12 0)
+			(at 243.84 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10403,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 198.12 0)
+			(at 243.84 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10412,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 246.38 198.12 0)
+			(at 243.84 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10778,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "PWR_IN"
 			(at 90.17 36.83 90)
 			(effects
 				(font
@@ -13619,7 +13619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 327.66 109.22 0)
 			(effects
 				(font
@@ -13785,7 +13785,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "AUDIO_OUT"
 			(at 404.495 106.68 0)
 			(effects
 				(font
@@ -15233,7 +15233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 393.7 46.99 0)
 			(effects
 				(font
@@ -15617,7 +15617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 369.57 109.22 0)
 			(effects
 				(font
@@ -15822,7 +15822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 290.83 115.57 0)
 			(effects
 				(font
@@ -15998,7 +15998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 274.32 139.7 0)
 			(effects
 				(font
