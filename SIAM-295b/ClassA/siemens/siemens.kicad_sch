@@ -3345,7 +3345,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC549"
+		(symbol "Transistor_BJT:BC849"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3362,7 +3362,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC549"
+			(property "Value" "BC849"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3371,7 +3371,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3382,7 +3382,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3392,7 +3392,212 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC849_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC849_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BCX56"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BCX56"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3410,7 +3615,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?89*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3419,7 +3624,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC549_0_1"
+			(symbol "BCX56_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -3456,7 +3661,7 @@
 					)
 				)
 			)
-			(symbol "BC549_1_1"
+			(symbol "BCX56_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3503,212 +3708,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BD139"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BD139"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Low Voltage Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?126*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BD139_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BD139_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4196,6 +4196,12 @@
 		(uuid "198e3a73-9e3f-4d28-ba89-eb587203b10c")
 	)
 	(junction
+		(at 321.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a977f04-8ba0-4249-a414-b61741b59feb")
+	)
+	(junction
 		(at 162.56 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4308,6 +4314,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4440345c-9774-488b-8a9a-ae5d74c283ce")
+	)
+	(junction
+		(at 393.7 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44dd59a4-10db-4e46-916e-b3894d61d9bf")
 	)
 	(junction
 		(at 393.7 41.91)
@@ -4508,12 +4520,6 @@
 		(uuid "a45bb6ca-279a-4480-917f-59cd02c9920b")
 	)
 	(junction
-		(at 321.31 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4e4cc09-b7bd-4502-aa59-b4a9a4a47eb3")
-	)
-	(junction
 		(at 29.21 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4524,12 +4530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad20a89b-87c6-4afa-972e-c0b3c4d88760")
-	)
-	(junction
-		(at 393.7 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad878b65-d026-4c41-b9a8-32c9d7d07568")
 	)
 	(junction
 		(at 259.08 175.26)
@@ -8028,7 +8028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 257.302 116.84 90)
 			(effects
 				(font
@@ -8098,7 +8098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 370.078 132.08 90)
 			(effects
 				(font
@@ -8168,7 +8168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 234.188 71.12 90)
 			(effects
 				(font
@@ -8205,6 +8205,109 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCX56")
+		(at 229.87 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a4d5881-bba2-4f25-a15e-246d0320d794")
+		(property "Reference" "Q7"
+			(at 234.95 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX56"
+			(at 234.95 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 234.95 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52623fe4-81b6-4879-9ddd-227c6e3c6783")
+		)
+		(pin "1"
+			(uuid "975694ef-01b5-4f64-ab2e-346244b293c0")
+		)
+		(pin "2"
+			(uuid "210cd938-b8f6-4d5b-a5b7-cabca82017df")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 90.678 82.55 90)
 			(effects
 				(font
@@ -8714,109 +8817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 62.23 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1de8f706-08a4-40c1-b2d0-8969462ba6ed")
-		(property "Reference" "Q3"
-			(at 67.31 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 67.31 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 67.31 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c670cad4-adce-4f66-849b-61ac2245c9b1")
-		)
-		(pin "2"
-			(uuid "5db4e58e-7345-4749-90b2-943a39b967f0")
-		)
-		(pin "1"
-			(uuid "cf23626b-e785-419e-b47e-b38d53f9a7ec")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 355.6 109.22 90)
 		(unit 1)
@@ -9018,7 +9018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 56.388 116.84 90)
 			(effects
 				(font
@@ -9088,7 +9088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 197.358 107.95 90)
 			(effects
 				(font
@@ -9194,6 +9194,109 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCX56")
+		(at 391.16 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c54515a-4c92-435f-9528-40d19236a3ad")
+		(property "Reference" "Q10"
+			(at 396.24 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX56"
+			(at 396.24 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 396.24 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7a7e9e4-d0b5-443b-9e7e-a2291d5e3169")
+		)
+		(pin "1"
+			(uuid "c79bada5-492a-4066-bc43-abe55b633326")
+		)
+		(pin "2"
+			(uuid "594e730a-e507-4716-b524-17b270197a56")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 323.088 86.36 90)
 			(effects
 				(font
@@ -9500,7 +9603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 76.708 49.53 90)
 			(effects
 				(font
@@ -9636,7 +9739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 224.79 65.532 90)
 			(effects
 				(font
@@ -9706,7 +9809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 32.512 64.77 90)
 			(effects
 				(font
@@ -9980,7 +10083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 388.62 47.752 90)
 			(effects
 				(font
@@ -10050,7 +10153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 102.108 124.46 90)
 			(effects
 				(font
@@ -10120,7 +10223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 185.1152 90.17 0)
 			(effects
 				(font
@@ -10258,7 +10361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 323.088 132.08 90)
 			(effects
 				(font
@@ -10362,6 +10465,109 @@
 			(project ""
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCX56")
+		(at 62.23 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45887aaa-a90b-4ad1-849b-60627c9671ed")
+		(property "Reference" "Q2"
+			(at 67.31 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX56"
+			(at 67.31 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 67.31 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ca515027-baaf-483f-8f15-665656b1ca8f")
+		)
+		(pin "1"
+			(uuid "99649030-29fa-4037-b849-988f73f2ab60")
+		)
+		(pin "2"
+			(uuid "225927c9-b64b-4b34-a0e6-fd2f97ad63ec")
+		)
+		(instances
+			(project ""
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10589,109 +10795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 229.87 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a4a4abe-6b7b-4928-a5c1-032868000e5c")
-		(property "Reference" "Q7"
-			(at 234.95 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 234.95 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 234.95 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cc9e3add-882e-4859-b24f-e7cb457ca1cd")
-		)
-		(pin "2"
-			(uuid "0713c4ea-b05a-45f7-8f07-aca643881783")
-		)
-		(pin "1"
-			(uuid "bc64ee32-44eb-42d5-aa26-7cb008825cd3")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 302.26 165.1 270)
 		(unit 1)
@@ -10717,7 +10820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 302.26 163.322 90)
 			(effects
 				(font
@@ -10829,6 +10932,109 @@
 			(project ""
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 365.76 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9374a6-9b62-415a-9f62-e30283e1fa71")
+		(property "Reference" "Q9"
+			(at 370.84 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 370.84 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 370.84 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 365.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 365.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 365.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 365.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 365.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7629d7eb-7e6e-4a58-9175-45669bdc9a15")
+		)
+		(pin "1"
+			(uuid "9f7782a1-b36e-40fb-8185-8afb4b347c2c")
+		)
+		(pin "2"
+			(uuid "7315fd40-90cf-45cd-9aa6-cda88a25185d")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -10974,109 +11180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 365.76 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "556f0c4d-4317-4a5f-86f2-3a370c80d4f5")
-		(property "Reference" "Q9"
-			(at 370.84 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC549"
-			(at 370.84 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 370.84 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 365.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 365.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 365.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 365.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 365.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0255514a-b152-46fe-8bff-d6f7fe40f3b0")
-		)
-		(pin "1"
-			(uuid "c020c5b1-b260-495c-a699-9d97da4dc37f")
-		)
-		(pin "2"
-			(uuid "0948878e-ae34-4d34-bf05-45ab6a310a47")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 378.46 67.31 0)
 		(unit 1)
@@ -11174,7 +11277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 170.688 107.95 90)
 			(effects
 				(font
@@ -11244,7 +11347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 66.548 116.84 90)
 			(effects
 				(font
@@ -11518,7 +11621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 32.512 87.63 90)
 			(effects
 				(font
@@ -11697,109 +11800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 391.16 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd77ecf-be30-4c54-820f-e34f022e5ab4")
-		(property "Reference" "Q11"
-			(at 396.24 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 396.24 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 396.24 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 391.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 391.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 391.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 391.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 391.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cd02b03a-be41-423a-b73e-9e85cb9db44b")
-		)
-		(pin "2"
-			(uuid "558514dc-28e0-4ebb-9051-f299215881cc")
-		)
-		(pin "1"
-			(uuid "f538cc39-4c36-4a23-8aae-514023c41f9b")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 29.21 31.75 0)
 		(unit 1)
@@ -11923,7 +11923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 306.07 99.822 90)
 			(effects
 				(font
@@ -12059,7 +12059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 248.92 163.322 90)
 			(effects
 				(font
@@ -12127,7 +12127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 313.69 163.322 90)
 			(effects
 				(font
@@ -12195,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 345.44 110.998 90)
 			(effects
 				(font
@@ -12265,7 +12265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 323.088 77.47 90)
 			(effects
 				(font
@@ -12333,7 +12333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 227.33 74.422 90)
 			(effects
 				(font
@@ -12608,7 +12608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 60.96 72.898 90)
 			(effects
 				(font
@@ -12866,109 +12866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 229.87 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81c6186d-eac5-4d79-9c87-d84746f17871")
-		(property "Reference" "Q6"
-			(at 234.95 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 234.95 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 234.95 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1f694a2c-bdb2-490a-9288-62e8bd3bfdb8")
-		)
-		(pin "2"
-			(uuid "524abb5c-0b4b-423c-8cd7-cdd4d55a45d7")
-		)
-		(pin "1"
-			(uuid "c2aa82d2-3b66-474d-9d1d-d8b9bc89d64a")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 116.84 119.38 0)
 		(unit 1)
@@ -13135,7 +13032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 234.188 127 90)
 			(effects
 				(font
@@ -13178,17 +13075,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 62.23 91.44 0)
+		(lib_id "Transistor_BJT:BC849")
+		(at 193.04 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86d753c3-45ab-47b7-8662-5bb2b2297d28")
-		(property "Reference" "Q2"
-			(at 67.31 90.1699 0)
+		(uuid "8a3394f6-09d2-4ee1-9999-bda5360c2132")
+		(property "Reference" "Q4"
+			(at 198.12 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,8 +13093,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BD139"
-			(at 67.31 92.7099 0)
+		(property "Value" "BC849"
+			(at 198.12 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13205,8 +13102,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 67.31 93.345 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 198.12 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13216,8 +13113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 62.23 91.44 0)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,8 +13123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 62.23 91.44 0)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13133,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 62.23 91.44 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13142,7 @@
 			)
 		)
 		(property "Sim.Type" "VBIC"
-			(at 62.23 91.44 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,8 +13150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 62.23 91.44 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,18 +13160,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "cd40a885-49c3-419d-a3c3-438a460c0a4f")
-		)
-		(pin "2"
-			(uuid "c5c74747-c151-444a-bf5e-f7fd9080fd94")
+			(uuid "1162adea-153c-4b36-88bd-a56bfed01455")
 		)
 		(pin "1"
-			(uuid "6130f151-670d-4204-b3f2-b4ba5aa5eba0")
+			(uuid "03215775-75b5-4888-9aba-1d129938bfd3")
+		)
+		(pin "2"
+			(uuid "e9d65923-a3d0-4338-b971-e55bb4f6d755")
 		)
 		(instances
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -13308,7 +13205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 395.478 132.08 90)
 			(effects
 				(font
@@ -13378,7 +13275,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 66.548 60.96 90)
 			(effects
 				(font
@@ -13485,109 +13382,6 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 391.16 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bd7e361-b3f7-4876-a291-6be1485c5a68")
-		(property "Reference" "Q12"
-			(at 396.24 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC549"
-			(at 396.24 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 396.24 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 391.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 391.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 391.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 391.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 391.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "291f6e01-154f-45a0-ae34-3444fc40496e")
-		)
-		(pin "1"
-			(uuid "02b665d5-c6a3-4709-8f31-5c8181991f85")
-		)
-		(pin "2"
-			(uuid "127de3b3-bdff-4b46-9043-079ba665a418")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -13863,7 +13657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 197.358 71.12 90)
 			(effects
 				(font
@@ -13931,7 +13725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 283.21 99.822 90)
 			(effects
 				(font
@@ -14001,7 +13795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 113.538 81.28 90)
 			(effects
 				(font
@@ -14179,109 +13973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 318.77 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ada2224-eee8-4af1-a9ef-9da06583b017")
-		(property "Reference" "Q8"
-			(at 323.85 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC549"
-			(at 323.85 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 323.85 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 318.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 318.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 318.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 318.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 318.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8f79c88c-661d-4112-ac85-70907713da02")
-		)
-		(pin "1"
-			(uuid "c4076e10-f117-4009-a8c0-a437bcdaa13e")
-		)
-		(pin "2"
-			(uuid "b43b1db2-a4ad-4f6e-9de3-6cbe0a8efc60")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 283.21 165.1 270)
 		(unit 1)
@@ -14307,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 283.21 163.322 90)
 			(effects
 				(font
@@ -14375,7 +14066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 92.71 112.268 90)
 			(effects
 				(font
@@ -14412,6 +14103,109 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 318.77 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ee2d40a-44f5-4834-9c87-04331452abf9")
+		(property "Reference" "Q8"
+			(at 323.85 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 323.85 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 323.85 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "75cc5531-c6f7-41fe-bd5e-54e4ad2e2fff")
+		)
+		(pin "1"
+			(uuid "2ae6df9a-47fd-4c37-b2ac-b38742c2403e")
+		)
+		(pin "2"
+			(uuid "50680f24-847a-4dc7-8767-ad13a341f686")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -14509,7 +14303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 52.07 72.898 90)
 			(effects
 				(font
@@ -14649,7 +14443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 224.028 127 90)
 			(effects
 				(font
@@ -14686,6 +14480,109 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 204.47 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab91403c-c91b-4309-aa8f-67d70bf5fabe")
+		(property "Reference" "Q5"
+			(at 209.55 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 209.55 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 209.55 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7a352e05-759d-480b-8d60-2226858c8cdb")
+		)
+		(pin "1"
+			(uuid "647a482b-b33f-4672-8bc8-0ffed33cbf5c")
+		)
+		(pin "2"
+			(uuid "0cc91f48-bcb8-449a-8bef-775a9192c683")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -14957,7 +14854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 336.55 110.998 90)
 			(effects
 				(font
@@ -14994,212 +14891,6 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 193.04 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b57877bc-8108-4955-ba86-02c1a2b92244")
-		(property "Reference" "Q4"
-			(at 198.12 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC549"
-			(at 198.12 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 198.12 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "47f9d5db-315a-41e8-9677-8da29f81e448")
-		)
-		(pin "1"
-			(uuid "65366d3b-a247-4053-bf0e-a29d85f8e5bc")
-		)
-		(pin "2"
-			(uuid "8e12082c-5375-4451-a9bf-97985e36ddc1")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 43.18 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b620bd4b-b5d4-4582-a37b-7ac7d61c0ab8")
-		(property "Reference" "Q1"
-			(at 48.26 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC549"
-			(at 48.26 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 48.26 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "64c73a1c-82c6-423d-a2ae-ad33ea70b366")
-		)
-		(pin "1"
-			(uuid "accfc1df-04cc-4843-b9ef-e16400a9b7f1")
-		)
-		(pin "2"
-			(uuid "ff0e4f9b-044b-4672-8235-67a780c5f33c")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -15407,7 +15098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 197.358 127 90)
 			(effects
 				(font
@@ -15450,6 +15141,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 391.16 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3549ae6-1c85-4a70-a7e6-3b9a6e93b561")
+		(property "Reference" "Q12"
+			(at 396.24 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 396.24 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 396.24 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 391.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 391.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 391.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 391.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 391.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "015894df-c972-4633-a638-2aacb004a17b")
+		)
+		(pin "1"
+			(uuid "007445fe-879e-4b5c-857a-96b32e455353")
+		)
+		(pin "2"
+			(uuid "01967932-2c3c-495d-bf87-be5ebf48ac1f")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCX56")
+		(at 62.23 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a9497f-e7f4-41ab-a505-c96d037d8c90")
+		(property "Reference" "Q3"
+			(at 67.31 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX56"
+			(at 67.31 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 67.31 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "857dbf17-fd49-4a75-b2ba-073dd7ed5a6e")
+		)
+		(pin "1"
+			(uuid "a447b582-eefc-4ccf-8820-eb0c5fed98d1")
+		)
+		(pin "2"
+			(uuid "252dfd4d-534b-4b71-ae03-1f13618ab54b")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 311.15 132.08 180)
 		(unit 1)
@@ -15477,7 +15374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 312.928 132.08 90)
 			(effects
 				(font
@@ -15547,7 +15444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 164.338 81.28 90)
 			(effects
 				(font
@@ -15754,7 +15651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 185.928 96.52 90)
 			(effects
 				(font
@@ -16171,7 +16068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 132.08 114.808 90)
 			(effects
 				(font
@@ -16239,7 +16136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 275.59 163.322 90)
 			(effects
 				(font
@@ -16276,6 +16173,109 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 43.18 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd4f2859-a226-4d18-ba1a-353f42659057")
+		(property "Reference" "Q1"
+			(at 48.26 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 48.26 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 48.26 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7525c85-5c12-409c-b809-4bca93953465")
+		)
+		(pin "1"
+			(uuid "1172cbf4-c166-46d7-b8af-823e4be86fd0")
+		)
+		(pin "2"
+			(uuid "87b397c0-aa54-46e5-bddb-b4dfe41910ea")
+		)
+		(instances
+			(project ""
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -16416,109 +16416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 391.16 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df75163a-5866-4470-8e60-db1ae6ddb892")
-		(property "Reference" "Q10"
-			(at 396.24 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 396.24 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 396.24 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 391.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 391.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 391.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 391.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 391.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ae971fce-5a0f-4772-85c5-9c5fd18f8f18")
-		)
-		(pin "2"
-			(uuid "98c03f4a-650f-474a-9ba1-092c8597f644")
-		)
-		(pin "1"
-			(uuid "41077151-250f-448d-a19e-52d1052a79d8")
-		)
-		(instances
-			(project "siemens"
-				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 74.93 44.45 90)
 		(unit 1)
@@ -16613,7 +16510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 385.318 132.08 90)
 			(effects
 				(font
@@ -16681,7 +16578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 139.7 114.808 90)
 			(effects
 				(font
@@ -16751,7 +16648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 395.478 69.85 90)
 			(effects
 				(font
@@ -16819,7 +16716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 388.62 80.772 90)
 			(effects
 				(font
@@ -16856,6 +16753,109 @@
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCX56")
+		(at 229.87 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f36d7d79-0ac2-41b8-998e-c278e8c346a5")
+		(property "Reference" "Q6"
+			(at 234.95 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX56"
+			(at 234.95 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 234.95 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3eca7a57-d910-46e2-86d0-72c2f53ac5f6")
+		)
+		(pin "1"
+			(uuid "ae2181e8-cb86-4b58-9740-2bdbc16490e4")
+		)
+		(pin "2"
+			(uuid "1faff77c-18d3-4ab5-957e-8ffea444c75e")
+		)
+		(instances
+			(project "siemens"
+				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -17019,7 +17019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 158.75 112.268 90)
 			(effects
 				(font
@@ -17198,17 +17198,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 204.47 81.28 0)
+		(lib_id "Transistor_BJT:BCX56")
+		(at 391.16 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8b99d00-2343-4a5d-b404-a9cfcb893a02")
-		(property "Reference" "Q5"
-			(at 209.55 80.0099 0)
+		(uuid "f9ee1714-b761-4663-84bb-32416ce9d09c")
+		(property "Reference" "Q11"
+			(at 396.24 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17216,8 +17216,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC549"
-			(at 209.55 82.5499 0)
+		(property "Value" "BCX56"
+			(at 396.24 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17225,8 +17225,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 209.55 83.185 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 396.24 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,8 +17236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 204.47 81.28 0)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 391.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17246,8 +17246,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 204.47 81.28 0)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 391.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17256,7 +17256,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 204.47 81.28 0)
+			(at 391.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17265,7 +17265,7 @@
 			)
 		)
 		(property "Sim.Type" "VBIC"
-			(at 204.47 81.28 0)
+			(at 391.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17273,8 +17273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 204.47 81.28 0)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 391.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17283,18 +17283,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "4c4c9879-96c9-47c4-8a8d-2261006bb499")
+			(uuid "b59a31e3-c9a3-4464-9004-ebbc5ece1131")
 		)
 		(pin "1"
-			(uuid "d328a2f2-9f7f-413b-beee-55530587cf7a")
+			(uuid "6417584d-ada2-48f5-8692-30637e6a5ed2")
 		)
 		(pin "2"
-			(uuid "fd7be460-0533-4ac7-9932-48b6ba5fbb2a")
+			(uuid "f5b87401-4d0f-49b5-a6c3-ffc92f4511b7")
 		)
 		(instances
 			(project "siemens"
 				(path "/6aa53ceb-d856-40b3-928a-11dabcf6739d"
-					(reference "Q5")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -17394,7 +17394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 395.478 77.47 90)
 			(effects
 				(font

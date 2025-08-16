@@ -21,6 +21,16 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(Net-_J3-Pin_1_) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(Net-_J3-Pin_1_) (gain)",
+          "trace_type": 521
+        },
+        {
           "color": "rgb(55, 126, 184)",
           "signal": "V(Net-_J4-Pin_1_) (phase)",
           "trace_type": 517
