@@ -37,6 +37,20 @@
         },
         {
           "color": "rgb(55, 126, 184)",
+          "cursor1": {
+            "position": 1000.0538177355523,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursor2": {
+            "position": 1437.853106690439,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
           "signal": "V(Net-_J4-Pin_1_) (gain)",
           "trace_type": 521
         }
